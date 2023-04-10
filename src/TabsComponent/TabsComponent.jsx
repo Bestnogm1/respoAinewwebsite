@@ -9,7 +9,7 @@ export default function TabsComponent() {
   return (
     <Tabs className={styles.TabsComponent}>
       <TabList>
-        <Tab>twitter</Tab>
+        <Tab>Twitter</Tab>
         <Tab>Reddit</Tab>
         <Tab>LinkedIn</Tab>
       </TabList>
