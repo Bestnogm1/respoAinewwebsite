@@ -4,6 +4,10 @@ import respoAinewimg from "../img/respoAinewimg.png";
 import GlobalButton from "../GlobalComponet/GlobalButton/GlobalButton";
 import { Link } from "react-router-dom";
 function Footer(props) {
+  function handleClick() {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <div className={styles.FooterMain}>
       <div className={styles.Footer}>
@@ -19,7 +23,7 @@ function Footer(props) {
           <ul className={styles.Footer2Ul}>
             <li className={styles.FooterTitle}> Product</li>
             <li>Features</li>
-            <Link to="/price">
+            <Link to="/price" onClick={handleClick}>
               <li>Pricing</li>
             </Link>
           </ul>
