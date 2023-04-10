@@ -6,3 +6,4 @@ export const platformData = [
   { name: "Twitter", description: "Microblogging", img: twitterlogo },
   { name: "Reddit", description: "Community", img: redditLogo },
 ];
+//
