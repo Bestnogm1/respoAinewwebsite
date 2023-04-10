@@ -1,0 +1,26 @@
+.platFormState {
+  display: flex;
+  margin-top: 4rem;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  min-width: 80%;
+  border-radius: 1rem;
+}
+
+.plat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  margin: 2rem;
+}
+
+.plat:hover {
+  background-color: rgba(154, 185, 238, 0.173);
+}
+.plat > img {
+  width: 4rem;
+}

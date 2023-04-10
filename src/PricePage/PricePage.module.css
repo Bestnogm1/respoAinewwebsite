@@ -1,0 +1,9 @@
+.PriceTags {
+  min-height: 40rem;
+}
+.PricePage {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  padding-top: 4rem;
+}

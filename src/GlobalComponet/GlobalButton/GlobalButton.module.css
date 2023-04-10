@@ -1,0 +1,56 @@
+/* CSS */
+.GlobalButton {
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    #27b1ff -5.67%,
+    #9d75f2 35.05%,
+    #00b994 78.87%,
+    #ffda79 121.13%
+  );
+  border-radius: 25px;
+  border: 2px solid rgb(249, 249, 249);
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.GlobalButton:focus {
+  color: #171e29;
+}
+
+.GlobalButton:hover {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}
+
+.GlobalButton:active {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .GlobalButton {
+    min-width: 130px;
+  }
+}

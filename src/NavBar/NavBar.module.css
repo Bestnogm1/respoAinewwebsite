@@ -1,0 +1,97 @@
+.NavBar {
+  display: flex;
+  min-width: 100%;
+
+  justify-content: space-between;
+}
+
+.NavBarLeft {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.NavBarImg {
+  width: 5rem;
+}
+
+.NavBarRight {
+  flex-grow: 0;
+  padding-right: 3rem;
+}
+
+.NavBarRightUl {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+.NavBarLeftA {
+  padding-left: 3rem;
+}
+
+/* CSS */
+.NavBarButton6 {
+  align-items: center;
+  background-color: #ffffff;
+
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.NavBarButton6:hover {
+  transform: translateY(-1px);
+}
+.NavBarHamburger {
+  display: none;
+  font-size: 4rem;
+}
+@media (width < 700px) {
+  .NavBar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    align-items: center;
+  }
+
+  .NavBarLeftA {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  .NavBarRightUl {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  .NavBarRight {
+    padding: 0;
+  }
+  /* .NavBarButton6,
+  .NavBarGlobalButton {
+    display: none;
+  } */
+  .NavBarDropDown {
+    display: block;
+    border: solid;
+  }
+}

@@ -1,0 +1,25 @@
+.ReposUnderReferencesX {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+  justify-content: space-evenly;
+}
+
+.reference {
+  display: flex;
+  width: 22rem;
+}
+
+.referenceImgContent > img {
+  max-width: 5rem;
+}
+.referenceH1 {
+  font-size: 13px;
+}
+
+@media (width < 800px) {
+  .ReposUnderReferencesX {
+    align-items: center;
+    gap: 4rem;
+  }
+}

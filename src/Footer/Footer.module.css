@@ -1,0 +1,114 @@
+.FooterMain {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  justify-content: center;
+}
+.footerButtonContainer {
+  display: flex;
+  justify-content: center;
+
+  padding-bottom: 5rem;
+}
+.Footer {
+  display: flex;
+
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+
+.Footer1Ul > li > img {
+  width: 3rem;
+}
+
+.Footer1Ul > li {
+  display: flex;
+  gap: 5px;
+}
+
+.Footer1Ul > li > p {
+  padding-top: 4px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.FooterTitle {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.Footer1,
+.Footer2,
+.Footer3,
+.Footer4 {
+  min-width: 14.6%;
+}
+.Footer2Ul,
+.Footer1Ul,
+.Footer3Ul,
+.Footer41Ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* CSS */
+.footerButton {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  min-width: 140px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.footerButton:focus {
+  color: #171e29;
+}
+
+.footerButton:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.footerButton:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .footerButton {
+    min-width: 170px;
+  }
+}
+@media (width < 800px) {
+  .Footer {
+    flex-wrap: wrap;
+  }
+}
