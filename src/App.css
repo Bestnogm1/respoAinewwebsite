@@ -3,6 +3,7 @@ h1,
 body {
   margin: 0;
   padding: 0;
+  width: auto;
   /* background-color: #f8f6f6; */
 }
 
@@ -13,9 +14,12 @@ body {
   justify-content: center;
 }
 
-@media (width <374) {
+@media (width < 374px) {
   .App {
     align-items: center;
+  }
+  .AppContainer {
+    max-width: 70vh;
   }
 }
 
@@ -23,9 +27,9 @@ body {
   padding-top: 1rem;
   padding-bottom: 3rem;
   display: flex;
-  max-width: 75rem;
+  max-width: 74rem;
   flex-direction: column;
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 ul {
