@@ -25,9 +25,9 @@ function NavBar(props) {
           <Link to="">
             <li className={styles.NavBarButton6}>Features</li>
           </Link>
-          <Link to="price">
+          {/* <Link to="price">
             <li className={styles.NavBarButton6}> Pricing</li>
-          </Link>
+          </Link> */}
           <li className={styles.NavBarGlobalButton}>
             <GlobalButton
               text={"Try for free"}

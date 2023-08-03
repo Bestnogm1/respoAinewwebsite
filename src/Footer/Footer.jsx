@@ -23,9 +23,9 @@ function Footer(props) {
           <ul className={styles.Footer2Ul}>
             <li className={styles.FooterTitle}> Product</li>
             <li>Features</li>
-            <Link to="/price" onClick={handleClick}>
+            {/* <Link to="/price" onClick={handleClick}>
               <li>Pricing</li>
-            </Link>
+            </Link> */}
           </ul>
         </div>
         <div className={styles.Footer3}>

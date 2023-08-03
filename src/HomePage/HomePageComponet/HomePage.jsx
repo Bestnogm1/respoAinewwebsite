@@ -26,9 +26,9 @@ function HomePage(props) {
             <span>way to grow on social media with the click of a button.</span>
           </p>
         </div>
-        <div className={styles.HomePageTitleContainerButton}>
+        {/* <div className={styles.HomePageTitleContainerButton}>
           <GlobalButton text={"Check out our pricing"} link={"/price"} />
-        </div>
+        </div> */}
       </div>
       <div className={styles.HomePage_Section_tabs}>
         <div className={styles.HomePage_Section}>
